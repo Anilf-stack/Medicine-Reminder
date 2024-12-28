@@ -1,0 +1,58 @@
+.centered-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fc;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.input-item {
+  margin-bottom: 15px;
+}
+
+.login-button {
+  margin-top: 20px;
+}
+
+.register-link {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer; /* Moved cursor property here */
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.register-link:hover {
+  border-color: #3498db;
+  background-color: #f0f8ff;
+}

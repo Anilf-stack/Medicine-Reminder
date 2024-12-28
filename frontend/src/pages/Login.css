@@ -1,0 +1,60 @@
+.centered-page {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    height: 100vh;           /* Full viewport height */
+    padding-left: 25rem;
+    padding-top: 8rem;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Optional padding for small screen sizes */
+  }
+  
+  .login-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px; /* Card size reduction */
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .input-item {
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    padding: 16px;
+  }
+  
+  .login-button {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .register-button {
+    margin-top: 10px;
+    color: #3498db;
+    font-weight: normal;
+  }
+  
+  .register-button:hover {
+    background: none;
+    color: #1a7bbb;
+  }
+  
+  

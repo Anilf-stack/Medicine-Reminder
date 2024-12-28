@@ -1,0 +1,12 @@
+html, body, ion-app, ion-content {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+ion-content {
+    --padding-start: 0;
+    --padding-end: 0;
+    --padding-top: 0;
+    --padding-bottom: 0;
+}

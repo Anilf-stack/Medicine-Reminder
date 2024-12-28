@@ -1,0 +1,7 @@
+{
+  "name": "medicine-reminder-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
